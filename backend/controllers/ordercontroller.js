@@ -9,7 +9,7 @@ import mongoose from "mongoose";
 // placing user order for frontend
 const placeOrder = async (req, res) => {
 
-    const frontend_Url = "http://localhost:5174"; // Replace with your frontend URL
+    const frontend_Url = "https://food-del-frontend-vb8n.onrender.com/"; // Replace with your frontend URL
 
     try {
         const neworder = new Ordermodel({
