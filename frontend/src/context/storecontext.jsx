@@ -8,7 +8,7 @@ const StorecontextProvider = (props) => {
 
     // use an object for cart items mapping id -> quantity
     const [cartitems, setcartitems] = React.useState({});
-    const url = "http://localhost:4000";
+    const url = "https://food-del-backend-k155.onrender.com";
     const [token,settoken] = React.useState("");
     const [food_list,setfoodlist] = React.useState([]);
 
